@@ -15,7 +15,7 @@ from gensim.models.coherencemodel import CoherenceModel
 tqdm.pandas()
 
 nltk.download("stopwords")
-nltk.download("word")
+nltk.download("wordnet")
 
 df = pd.read_csv("./sentiment_classified.csv")
 
